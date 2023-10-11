@@ -14,9 +14,17 @@
 ```
 wbash <(curl -Ls https://raw.githubusercontent.com/MrAminiNezhad/Auto-tunnel-iptables/main/run.sh) bbr
 ```
+درصورت عمل نکرد دستور بالا از دستور زیر استفاده نمایید.
+```
+wget -N --no-check-certificate https://raw.githubusercontent.com/MrAminiNezhad/Auto-tunnel-iptables/main/run2.sh && chmod +x run2.sh && sudo bash run2.sh
+```
 جهت نصب با Hybla دستور زیر را استفاده نمایید. <br>
 ```
 wbash <(curl -Ls https://raw.githubusercontent.com/MrAminiNezhad/Auto-tunnel-iptables/main/run.sh)
+```
+درصورت عمل نکرد دستور بالا از دستور زیر استفاده نمایید.
+```
+wget -N --no-check-certificate https://raw.githubusercontent.com/MrAminiNezhad/Auto-tunnel-iptables/main/run.sh && chmod +x run.sh && sudo bash run.sh
 ```
 2- مراحل نصب را تا پایان ادام بدید <br>
 

@@ -9,9 +9,9 @@ sleep 10
 
 wget -N --no-check-certificate "https://raw.githubusercontent.com/MrAminiNezhad/tcp_optimizer_hybla/main/hybla.sh"
 
-chmod +x "bbr.sh"
+chmod +x "hybla.sh"
 
-bash "bbr.sh"
+bash "hybla.sh"
 echo "please wait"
 
 if [[ $EUID -ne 0 ]]; then

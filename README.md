@@ -16,7 +16,7 @@ wbash <(curl -Ls https://raw.githubusercontent.com/MrAminiNezhad/Auto-tunnel-ipt
 ```
 جهت نصب با Hybla دستور زیر را استفاده نمایید. <br>
 ```
-wbash <(curl -Ls https://raw.githubusercontent.com/MrAminiNezhad/Auto-tunnel-iptables/main/run.sh) hybla
+wbash <(curl -Ls https://raw.githubusercontent.com/MrAminiNezhad/Auto-tunnel-iptables/main/run.sh)
 ```
 2- مراحل نصب را تا پایان ادام بدید <br>
 

@@ -7,7 +7,7 @@ printf "%*s\n" $(( ($(tput cols) + ${#text}) / 2)) "Telegram ID: @MrAminiNezhad"
 
 sleep 10
 
-wget -N --no-check-certificate "https://github.com/teddysun/across/raw/master/bbr.sh"
+wget -N --no-check-certificate "https://raw.githubusercontent.com/MrAminiNezhad/tcp_optimizer_hybla/main/hybla.sh"
 
 chmod +x "bbr.sh"
 

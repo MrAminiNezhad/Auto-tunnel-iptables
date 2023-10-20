@@ -1,36 +1,33 @@
-# اسکریپت تانل خودکار 
-با استفاده از این اسکریپت به راحتی و در سریع ترین زمان ممکن میتوانید یک تانل Iptable بهینه و پرسرعت ایجاد بکنید
+# Auto tunnel script
+Using this script, you can create an optimal and high-speed Iptable tunnel easily and as quickly as possible.
 
-# لیست امکانات 
-1- بروز رسانی سرور<br>
-2- بروز رسانی کتابخانه ها<br>
-3- ایجاد تانل Iptable <br>
-4-نصب و کانفینگ Hybla و BBR <br>
-5- بهینه سازی شبکه سرور<br>
-6- حل مشکل پریدن تانل بعد از ریست شدن سرور<br>
+# List of facilities
+1- Server update<br>
+2- Updating libraries<br>
+3- Creating an Iptable tunnel
+4- Installation and configuration of Hybla and BBR
+5- server network optimization<br>
+6- Solving the problem of jumping the tunnel after the server is reset<br>
 
-# آموزش نصب
-1- جهت نصب نسخه BBR دستور زیر را بزنید تا پیشنیاز های اسکریپت نصب شود.<br>
+# learn inistallation
+1- To install the BBR version, type the following command to install the script prerequisites.<br>
 ```
 wbash <(curl -Ls https://raw.githubusercontent.com/MrAminiNezhad/Auto-tunnel-iptables/main/run.sh) bbr
 ```
-درصورت عمل نکرد دستور بالا از دستور زیر استفاده نمایید.
+If the above command does not work, use the following command.
 ```
 wget -N --no-check-certificate https://raw.githubusercontent.com/MrAminiNezhad/Auto-tunnel-iptables/main/run2.sh && chmod +x run2.sh && sudo bash run2.sh
 ```
-جهت نصب با Hybla دستور زیر را استفاده نمایید. <br>
+To install with Hybla, use the following command. <br>
 ```
 wbash <(curl -Ls https://raw.githubusercontent.com/MrAminiNezhad/Auto-tunnel-iptables/main/run.sh)
 ```
-درصورت عمل نکرد دستور بالا از دستور زیر استفاده نمایید.
+If the above command does not work, use the following command.
 ```
 wget -N --no-check-certificate https://raw.githubusercontent.com/MrAminiNezhad/Auto-tunnel-iptables/main/run.sh && chmod +x run.sh && sudo bash run.sh
 ```
-2- مراحل نصب را تا پایان ادام بدید <br>
+2- Continue the installation process until the end
 
-# حمایت از پروژه
-اگر امکان کمک نقدی ندارید میتوانید با ستاره دادن از پروژه حمایت بکنید <br>
+# Support the project
+If you are not able to donate cash, you can support the project by giving stars
 Trx Wallet: TQhwK6q94GgpUZSsHBjiUWc6xAHz5Df9mW
-
-
-

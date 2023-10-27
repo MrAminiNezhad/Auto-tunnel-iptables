@@ -10,22 +10,15 @@
 6- حل مشکل پریدن تانل بعد از ریست شدن سرور<br>
 
 # آموزش نصب
-1- جهت نصب نسخه BBR دستور زیر را بزنید تا پیشنیاز های اسکریپت نصب شود.<br>
+1- جهت نصب آخرین نسخه دستور زیر را بزنید تا پیشنیاز های اسکریپت نصب شود.<br>
 ```
-wbash <(curl -Ls https://raw.githubusercontent.com/MrAminiNezhad/Auto-tunnel-iptables/main/run.sh) bbr
-```
-درصورت عمل نکرد دستور بالا از دستور زیر استفاده نمایید.
-```
-wget -N --no-check-certificate https://raw.githubusercontent.com/MrAminiNezhad/Auto-tunnel-iptables/main/run2.sh && chmod +x run2.sh && sudo bash run2.sh
-```
-جهت نصب با Hybla دستور زیر را استفاده نمایید. <br>
-```
-wbash <(curl -Ls https://raw.githubusercontent.com/MrAminiNezhad/Auto-tunnel-iptables/main/run.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/MrAminiNezhad/Auto-tunnel-iptables/main/install.sh) 
 ```
 درصورت عمل نکرد دستور بالا از دستور زیر استفاده نمایید.
 ```
-wget -N --no-check-certificate https://raw.githubusercontent.com/MrAminiNezhad/Auto-tunnel-iptables/main/run.sh && chmod +x run.sh && sudo bash run.sh
+wget -N --no-check-certificate https://raw.githubusercontent.com/MrAminiNezhad/Auto-tunnel-iptables/main/install.sh && chmod +x install.sh && sudo bash install.sh
 ```
+
 2- مراحل نصب را تا پایان ادام بدید <br>
 
 # حمایت از پروژه

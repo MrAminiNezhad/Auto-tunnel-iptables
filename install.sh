@@ -1,8 +1,21 @@
 #!/bin/bash
+while true; do
+    clear
+    echo -e "${YELLOW}+--------------------------------------------------+${NC}"
+    echo -e "${YELLOW}|                                                  |${NC}"
+    echo -e "${GREEN}|${GREEN}              W E L L C O M E                 ${GREEN}|${NC}"
+    echo -e "${BLUE}|${GREEN}                    T O                         ${BLUE}|${NC}"
+    echo -e "${BLUE}|${GREEN}      A u t o t u n n e l i p t a b e l         ${BLUE}|${NC}"
+    echo -e "${BLUE}|                                        ${RED}ver 1.2 ${NC}  ${BLUE}|${NC}"
+    echo -e "${BLUE}|${NC}                       B Y                      ${BLUE}|${NC}"
+    echo -e "${BLUE}|${NC}                  MR.AminiNezhad                ${BLUE}|${NC}"
+    echo -e "${BLUE}|           ---------------------------            |${NC}"
+    echo -e "${BLUE}|                                                  |${NC}"
+    echo -e "${BLUE}|${GREEN}      ------------ Install Menu ------------      ${BLUE}|${NC}"
+    echo -e "${BLUE}|                                                  |${NC}"
+    echo -e "${BLUE}|${YELLOW} 1.${NC} ${CYAN}Installing Iptable with BBR${NC}         ${BLUE}|${NC}"
+    echo -e "${BLUE}|${YELLOW} 2.${NC} ${GRAY}Installing Iptable with Hybla${NC}       ${BLUE}|${NC}"
 
-echo "Please select an option:"
-echo "1- Installing Iptable with BBR"
-echo "2- Installing Iptable with Hybla"
 read -p "Enter your choice (1 or 2): " choice
 
 if [ "$choice" == "1" ]; then

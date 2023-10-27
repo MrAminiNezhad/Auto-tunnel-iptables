@@ -48,4 +48,5 @@ while true; do
         echo "Press ENTER to continue"
         read -s -n 1
     fi
+          esac
 done

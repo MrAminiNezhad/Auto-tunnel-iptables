@@ -33,7 +33,7 @@ while true; do
     echo -e "${BLUE}|                                                  |${NC}"
     echo -e "${BLUE}|${YELLOW} 1.${NC} ${CYAN}Installing Iptable with BBR${NC}              ${BLUE}|${NC}"
     echo -e "${BLUE}|${YELLOW} 2.${NC} ${GRAY}Installing Iptable with Hybla${NC}            ${BLUE}|${NC}"
-    echo -e "${BLUE}|${YELLOW}0.${NC} ${RED}QUIT${NC}                                          ${BLUE}|${NC}"
+    echo -e "${BLUE}|${YELLOW} 0.${NC} ${RED}QUIT${NC}                                          ${BLUE}|${NC}"
     read -p "Enter option number: " choice
     
     if [ "$choice" == "1" ]; then

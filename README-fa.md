@@ -19,7 +19,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/MrAminiNezhad/Auto-tunnel-ipta
 wget -N --no-check-certificate https://raw.githubusercontent.com/MrAminiNezhad/Auto-tunnel-iptables/main/install.sh && chmod +x install.sh && sudo bash install.sh
 ```
 
-2- مراحل نصب را تا پایان ادام بدید <br>
+2- مراحل نصب را تا پایان ادامه بدید <br>
 
 # حمایت از پروژه
 اگر امکان کمک نقدی ندارید میتوانید با ستاره دادن از پروژه حمایت بکنید <br>

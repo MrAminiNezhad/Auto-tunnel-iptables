@@ -1,9 +1,9 @@
 #!/bin/bash
-wget -N --no-check-certificate "https://raw.githubusercontent.com/MrAminiNezhad/tcp_optimizer_hybla/main/hybla.sh"
+wget -N --no-check-certificate "        wget -N --no-check-certificate https://raw.githubusercontent.com/MrAminiNezhad/Auto-tunnel-iptables/main/Hybla.sh"
 
-chmod +x "hybla.sh"
+chmod +x "Hybla.sh"
 
-bash "hybla.sh"
+bash "Hybla.sh"
 echo "please wait"
 
 if [[ $EUID -ne 0 ]]; then

@@ -17,7 +17,7 @@ Using this script, you can create an optimal and high-speed Iptable tunnel easil
 # learn inistallation
 1- To install the BBR version, type the following command to install the script prerequisites.<br>
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/MrAminiNezhad/Auto-tunnel-iptables/main/run.sh) bbr
+bash <(curl -Ls https://raw.githubusercontent.com/MrAminiNezhad/Auto-tunnel-iptables/main/run2.sh)
 ```
 If the above command does not work, use the following command.
 ```

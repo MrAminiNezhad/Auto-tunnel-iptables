@@ -12,7 +12,7 @@
 # آموزش نصب
 1- جهت نصب نسخه BBR دستور زیر را بزنید تا پیشنیاز های اسکریپت نصب شود.<br>
 ```
-wbash <(curl -Ls https://raw.githubusercontent.com/MrAminiNezhad/Auto-tunnel-iptables/main/run.sh) bbr
+bash <(curl -Ls https://raw.githubusercontent.com/MrAminiNezhad/Auto-tunnel-iptables/main/run.sh) bbr
 ```
 درصورت عمل نکرد دستور بالا از دستور زیر استفاده نمایید.
 ```
@@ -20,7 +20,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/MrAminiNezhad/A
 ```
 جهت نصب با Hybla دستور زیر را استفاده نمایید. <br>
 ```
-wbash <(curl -Ls https://raw.githubusercontent.com/MrAminiNezhad/Auto-tunnel-iptables/main/run.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/MrAminiNezhad/Auto-tunnel-iptables/main/run.sh)
 ```
 درصورت عمل نکرد دستور بالا از دستور زیر استفاده نمایید.
 ```

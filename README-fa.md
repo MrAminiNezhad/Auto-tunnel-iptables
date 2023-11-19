@@ -12,7 +12,7 @@
 # آموزش نصب
 1- جهت نصب نسخه BBR دستور زیر را بزنید تا پیشنیاز های اسکریپت نصب شود.<br>
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/MrAminiNezhad/Auto-tunnel-iptables/main/run.sh) bbr
+bash <(curl -Ls https://raw.githubusercontent.com/MrAminiNezhad/Auto-tunnel-iptables/main/run2.sh)
 ```
 درصورت عمل نکرد دستور بالا از دستور زیر استفاده نمایید.
 ```
